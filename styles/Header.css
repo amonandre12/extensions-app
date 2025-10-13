@@ -1,0 +1,52 @@
+.header_logo {
+    background-color:hsl(225, 23%, 24%) ;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 1px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex_icon {
+    display:flex;
+    flex-direction:row;
+    gap:3px ;
+}
+
+.icon_sun{
+    cursor: pointer;
+    margin-top: 28px;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1000; 
+    display:inline-block ; 
+    overflow: hidden ; 
+}
+
+.icon_sun:hover {
+  background: rgba(255,255,255,0.2);
+  outline: none ;
+}
+
+
+.react_img {
+    cursor: pointer;
+    color: hsl(3, 86%, 64%);
+    margin-left:26px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1000; 
+    width: 45px;
+    height: 46px;
+    margin-bottom: 30px;
+}
+
+@media (min-width : 1224px) {
+    .react_img  {
+         cursor: pointer;
+    }
+}

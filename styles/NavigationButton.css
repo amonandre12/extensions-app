@@ -1,0 +1,53 @@
+/* The NavBar styles  */
+.navbar_btn  {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
+h1 {
+ color:hsl(200, 60%, 99%);
+ cursor: pointer;
+}
+
+.navbar-section {
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    position: relative;
+    top: 95px;
+}
+
+.navbar_btn Button {
+    border: none;
+    border-radius: 10px;
+    padding:10px 20px;
+    font-size: 20px;
+    cursor: pointer; 
+    transition: 0.3s ease;
+    
+}
+
+.navbar_btn Button.active {
+    background-color: hsl(3, 86%, 64%);
+}
+/* The media query styles  */
+
+@media (min-width : 1224px) {
+    .navbar-section {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+      padding: 15px;
+      justify-items: center;
+    }
+
+    .navbar_btn Button  {
+        height: 50px;
+        border-radius: 20px;
+        padding:2px 30px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}

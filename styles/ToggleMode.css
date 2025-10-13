@@ -1,0 +1,38 @@
+/* The mode toggle styles  */
+.toggle_content {
+    position : relative; 
+}
+
+.toggle-mode {
+    position : absolute ; 
+    right: 6%;
+    bottom:-29px;
+    width:160px;
+    height:130px;
+    border:1px solid  hsl(217, 61%, 90%) ;
+    z-index: 1000;
+    background-color: hsl(227, 75%, 14%);
+    border-radius:5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+   
+    
+}
+
+.toggle-mode p {
+    color: hsl(217, 61%, 90%) ;
+    font-size: 20px ;
+    cursor:pointer;
+    margin: 4px ; 
+    padding: 6px;
+}
+
+
+
+.toggle-mode p:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.toggle-mode p.active {
+     background: white;
+     color: black;
+}

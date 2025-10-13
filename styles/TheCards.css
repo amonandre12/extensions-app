@@ -1,0 +1,43 @@
+/* The Cards List styles  */
+.cards-styles{
+    display:flex ;
+    flex-direction: column;
+    justify-items: center;
+    gap: 2px;
+    margin: 10px;
+    padding: 10px;
+    color: #FFFFFF;
+    position: relative;
+    top: 110px;
+}
+
+.section_content {
+  position: relative; 
+  bottom: 120px; 
+}
+
+Button {
+    cursor: pointer;
+    padding:7px 20px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+.cards-styles .card_round {
+    border: none solid hsl(0, 0%, 78%);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 15px;
+    background-color : hsl(225, 23%, 24%);
+}
+
+/* The media query styles  */
+@media(min-width: 1224px) {
+  .cards-styles {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 10px;  
+  }
+
+}

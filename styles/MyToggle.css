@@ -1,0 +1,33 @@
+.switch-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.switch {
+  width: 50px;
+  height: 19px;
+  background-color: #ccc;
+  border-radius: 10px;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.switch.active {
+   background-color: hsl(3, 86%, 64%);
+}
+
+.thumb {
+  width: 15px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s;
+}
+
+.switch.active .thumb {
+  transform: translateX(30px);
+}
