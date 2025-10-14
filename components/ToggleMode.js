@@ -35,10 +35,10 @@ function ToggleMode({bodyColor , setBodyColor , closeMenu}) {
         <section className = "toggle-mode"  ref={menuRef}>
      
         
-        <div onClick = {() => handleColorChange('Black')}
-        className = {bodyColor === 'Black' ? 'Active' : ''}
+        <div onClick = {() => handleColorChange('Light')}
+        className = {bodyColor === 'Light' ? 'Active' : ''}
           > 
-        <p>Black</p>
+        <p>Light</p>
         </div>
 
         <div onClick ={() => handleColorChange('Dark')}

@@ -7,8 +7,8 @@
 }
 
 h1 {
- color:hsl(200, 60%, 99%);
- cursor: pointer;
+ /* color:hsl(200, 60%, 99%); */
+ /* cursor: pointer; */
 }
 
 .navbar-section {

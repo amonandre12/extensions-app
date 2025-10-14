@@ -26,6 +26,10 @@
     display:inline-block ; 
     overflow: hidden ; 
 }
+.con_moon {
+    color: white;
+    z-index: 1000;
+}
 
 .icon_sun:hover {
   background: rgba(255,255,255,0.2);
