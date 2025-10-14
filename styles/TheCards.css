@@ -12,8 +12,7 @@
 }
 
 .section_content {
-  position: relative; 
-  bottom: 120px; 
+  /* padding-bottom: 330px; */
 }
 
 Button {
@@ -37,7 +36,10 @@ Button {
   .cards-styles {
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
-    gap: 10px;  
+    gap: 15px;
+    justify-content: center; 
+    max-width: 1200px;        
+    margin: 0 auto;    
   }
 
 }
